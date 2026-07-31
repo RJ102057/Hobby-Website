@@ -104,8 +104,14 @@ notes:
   Perfume"**, **"Dream Car"** (same kicker-style typographic treatment
   as other small-caps labels elsewhere in the site — uppercase,
   letter-spaced).
-- Product photo below the label (aspect ratio consistent with the
-  Explore grid tiles for visual harmony).
+- Product photo below the label, cropped to **4:3** (not the Explore
+  grid's 4:5) — the car photo is native 16:9 landscape, and a 4:5
+  portrait crop would slice off its front/rear. 4:3 keeps the full car
+  in frame (trims empty space top/bottom instead of the sides) while
+  still cropping reasonably for the watch and perfume shots. This is a
+  deliberate, confirmed departure from the Explore grid's aspect ratio
+  — the two sections are visually distinct anyway (editorial dream
+  cards vs. product/nav tiles).
 - Product name below the image, in the same serif treatment as other
   card titles: "Jaeger-LeCoultre Reverso Artistica Hybrid Calibre 179
   Pegasus" / "AMAFFI Poseidon for Men" / "Mercedes-Maybach S680
@@ -116,9 +122,16 @@ overlaid on top of the image as a badge).
 
 ## 5. Images
 
-Three real product photos are needed, provided by the user as direct
-URLs (not sourced by the assistant, which has no image search/browse
-capability for this). Once provided:
+Three real product photos, sourced from pages the user provided (the
+assistant has no image search/browse capability, so these came from
+fetching the user's URLs directly and picking the best product shot
+from each page's own image gallery):
+
+| Item | Source page | Chosen image | Native size |
+|---|---|---|---|
+| Watch | jaeger-lecoultre.com product page | gallery 3/4 view, rose-gold engraved case, blue strap | 720×900 |
+| Perfume | amaffi.com product page | gallery bottle close-up, black background, trident medallion | 2400×2400 |
+| Car | evoindia.com article | front 3/4 view, maroon/gold duotone "Manufaktur" paint | 2048×1152 |
 
 - Downloaded and stored locally under `public/images/dream/` (e.g.
   `jlc-reverso-artistica-pegasus.jpg`, `amaffi-poseidon.jpg`,
@@ -126,7 +139,8 @@ capability for this). Once provided:
   self-contained and avoids `next.config.ts` `remotePatterns` changes.
 - Rendered through the existing `components/ui/image` wrapper exactly
   like every other photo on the site (already handles arbitrary
-  raster formats — only `.svg` gets special-cased as unoptimized).
+  raster formats — only `.svg` gets special-cased as unoptimized),
+  with `aspectRatio={4/3}` and `objectFit="cover"`.
 
 ## 6. Content/copy changes (no ambiguity, straightforward)
 
