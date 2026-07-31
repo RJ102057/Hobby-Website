@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+  <rect width="800" height="800" fill="oklch(0.16 0 0)" />
+  <rect x="1" y="1" width="798" height="798" fill="none" stroke="oklch(0.3 0 0)" stroke-width="2" />
+  <text x="50%" y="380" text-anchor="middle" font-family="ui-monospace, monospace" font-size="15" letter-spacing="2" fill="oklch(0.5 0 0)">MAISON FRANCIS KURKDJIAN</text>
+  <text x="50%" y="420" text-anchor="middle" font-family="ui-monospace, monospace" font-size="26" letter-spacing="1" fill="oklch(0.62 0 0)">BACCARAT ROUGE 540</text>
+</svg>
