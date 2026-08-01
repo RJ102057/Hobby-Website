@@ -1,8 +1,10 @@
 import cn from 'clsx'
+import { DreamGrid } from '@/components/home/dream-grid'
 import { Wrapper } from '@/components/layout/wrapper'
 import { Image } from '@/components/ui/image'
 import { Link } from '@/components/ui/link'
 import { cars } from '@/content/cars'
+import { dreams } from '@/content/dreams'
 import { perfumes } from '@/content/perfumes'
 import { watches } from '@/content/watches'
 import s from './page.module.css'
@@ -55,12 +57,11 @@ export default function HomePage() {
         <div className="col-span-full dt:col-start-2 dt:col-end-11">
           <p className={s.kicker}>Personal collection</p>
           <h1 className={s.title}>Reuben&apos;s Collection</h1>
-          <p className={s.lede}>
-            Watches, perfumes, and cars — a running record of the things
-            I&apos;ve collected and actually use.
-          </p>
+          <p className={s.lede}>Three pursuits. One point of view.</p>
         </div>
       </section>
+
+      <DreamGrid items={dreams} />
 
       <section className={cn(s.tiles, 'dr-layout-grid')}>
         <div className="col-span-full dt:col-start-2 dt:col-end-11">
