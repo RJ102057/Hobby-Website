@@ -1,24 +1,17 @@
 import cn from 'clsx'
 import { DreamGrid } from '@/components/home/dream-grid'
+import { ExploreGrid, type ExploreTile } from '@/components/home/explore-grid'
 import { Wrapper } from '@/components/layout/wrapper'
-import { Image } from '@/components/ui/image'
-import { Link } from '@/components/ui/link'
 import { cars } from '@/content/cars'
 import { dreams } from '@/content/dreams'
 import { perfumes } from '@/content/perfumes'
 import { watches } from '@/content/watches'
+import { STORYBOOK_ENABLED, STORYBOOK_HREF } from '@/lib/storybook'
 import s from './page.module.css'
 
 export const metadata = {
   title: "Reuben's Collection",
   description: 'A personal showcase of watches, perfumes, and cars.',
-}
-
-interface Tile {
-  title: string
-  href: string
-  image: string
-  count: number
 }
 
 function firstItem<T>(items: T[]): T {
@@ -29,25 +22,21 @@ function firstItem<T>(items: T[]): T {
   return item
 }
 
-const TILES: Tile[] = [
-  {
-    title: 'Watches',
-    href: '/watches',
-    image: firstItem(watches).image,
-    count: watches.length,
-  },
-  {
-    title: 'Perfumes',
-    href: '/perfumes',
-    image: firstItem(perfumes).image,
-    count: perfumes.length,
-  },
-  {
-    title: 'Cars',
-    href: '/cars',
-    image: firstItem(cars).image,
-    count: cars.length,
-  },
+const EXPLORE_TILES: ExploreTile[] = [
+  { title: 'Home', href: '/', description: 'Back to the overview.' },
+  { title: 'Watches', href: '/watches', image: firstItem(watches).image },
+  { title: 'Perfumes', href: '/perfumes', image: firstItem(perfumes).image },
+  { title: 'Cars', href: '/cars', image: firstItem(cars).image },
+  ...(STORYBOOK_ENABLED
+    ? [
+        {
+          title: 'Atelier Notes',
+          href: STORYBOOK_HREF,
+          description: 'Behind the collection.',
+          newTab: true,
+        } satisfies ExploreTile,
+      ]
+    : []),
 ]
 
 export default function HomePage() {
@@ -62,29 +51,7 @@ export default function HomePage() {
       </section>
 
       <DreamGrid items={dreams} />
-
-      <section className={cn(s.tiles, 'dr-layout-grid')}>
-        <div className="col-span-full dt:col-start-2 dt:col-end-11">
-          <div className={s.tileGrid}>
-            {TILES.map((tile) => (
-              <Link className={s.tile} href={tile.href} key={tile.title}>
-                <Image
-                  alt=""
-                  aspectRatio={4 / 5}
-                  className={s.tileImage}
-                  desktopSize="33vw"
-                  mobileSize="100vw"
-                  src={tile.image}
-                />
-                <div className={s.tileInfo}>
-                  <h2 className={s.tileTitle}>{tile.title}</h2>
-                  <p className={s.tileCount}>{tile.count} pieces</p>
-                </div>
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
+      <ExploreGrid tiles={EXPLORE_TILES} />
     </Wrapper>
   )
 }
