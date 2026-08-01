@@ -12,34 +12,34 @@
 .kicker {
   font-family: var(--font-sans);
   font-weight: 500;
-  font-size: calc(11 / 375 * 100vw);
+  font-size: calc(13 / 375 * 100vw);
   text-transform: uppercase;
   letter-spacing: 0.14em;
   color: var(--color-secondary);
   margin-bottom: calc(18 / 375 * 100vw);
 
   @media (--desktop) {
-    font-size: calc(12 / 1440 * 100vw);
+    font-size: calc(14 / 1440 * 100vw);
     margin-bottom: calc(22 / 1440 * 100vw);
   }
 }
 
 .title {
   font-family: var(--font-display);
-  font-size: calc(48 / 375 * 100vw);
+  font-size: calc(58 / 375 * 100vw);
   font-weight: 500;
   letter-spacing: -0.01em;
   line-height: 0.98;
   color: var(--color-secondary);
 
   @media (--desktop) {
-    font-size: calc(84 / 1440 * 100vw);
+    font-size: calc(100 / 1440 * 100vw);
   }
 }
 
 .lede {
   font-family: var(--font-sans);
-  font-size: calc(14 / 375 * 100vw);
+  font-size: calc(17 / 375 * 100vw);
   line-height: 1.65;
   text-wrap: pretty;
   opacity: 0.6;
@@ -47,7 +47,7 @@
   max-width: 58ch;
 
   @media (--desktop) {
-    font-size: calc(16 / 1440 * 100vw);
+    font-size: calc(19 / 1440 * 100vw);
     margin-top: calc(32 / 1440 * 100vw);
   }
 }
@@ -95,7 +95,7 @@
 .brand {
   font-family: var(--font-sans);
   font-weight: 500;
-  font-size: calc(11 / 375 * 100vw);
+  font-size: calc(13 / 375 * 100vw);
   text-transform: uppercase;
   letter-spacing: 0.1em;
   color: var(--color-secondary);
@@ -103,13 +103,13 @@
   margin-bottom: calc(8 / 375 * 100vw);
 
   @media (--desktop) {
-    font-size: calc(12 / 1440 * 100vw);
+    font-size: calc(14 / 1440 * 100vw);
   }
 }
 
 .name {
   font-family: var(--font-display);
-  font-size: calc(25 / 375 * 100vw);
+  font-size: calc(30 / 375 * 100vw);
   font-weight: 500;
   letter-spacing: -0.005em;
   line-height: 1.08;
@@ -117,7 +117,7 @@
   margin-bottom: calc(18 / 375 * 100vw);
 
   @media (--desktop) {
-    font-size: calc(28 / 1440 * 100vw);
+    font-size: calc(34 / 1440 * 100vw);
     margin-bottom: calc(22 / 1440 * 100vw);
   }
 }
@@ -142,11 +142,11 @@
   justify-content: space-between;
   gap: calc(12 / 375 * 100vw);
   font-family: var(--font-sans);
-  font-size: calc(12 / 375 * 100vw);
+  font-size: calc(14 / 375 * 100vw);
 
   @media (--desktop) {
     gap: calc(16 / 1440 * 100vw);
-    font-size: calc(13 / 1440 * 100vw);
+    font-size: calc(15 / 1440 * 100vw);
   }
 }
 
@@ -166,13 +166,13 @@
 .note {
   font-family: var(--font-display);
   font-style: italic;
-  font-size: calc(14 / 375 * 100vw);
+  font-size: calc(17 / 375 * 100vw);
   line-height: 1.55;
   text-wrap: pretty;
   color: var(--color-secondary);
   opacity: 0.7;
 
   @media (--desktop) {
-    font-size: calc(16 / 1440 * 100vw);
+    font-size: calc(19 / 1440 * 100vw);
   }
 }
