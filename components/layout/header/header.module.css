@@ -3,7 +3,7 @@
   top: var(--safe);
   left: var(--safe);
   z-index: 20;
-  font-family: var(--next-font-sans);
+  font-family: var(--next-font-display);
   font-weight: 500;
   font-size: calc((10 * 100) / var(--device-width) * 1vw);
   text-transform: uppercase;

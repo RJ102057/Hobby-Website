@@ -2,7 +2,7 @@ import type { CSSProperties } from 'react'
 
 const fonts = {
   display: '--next-font-display', // this should be the variable name defined in fonts.ts
-  sans: '--next-font-sans',
+  sans: '--next-font-display', // single-typeface site: sans now resolves to the same Fraunces variable as display
 } as const
 
 const typography: TypeStyles = {

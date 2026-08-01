@@ -27,7 +27,7 @@
 
   --font-*: initial;
   --font-display: var(--next-font-display);
-	--font-sans: var(--next-font-sans);
+	--font-sans: var(--next-font-display);
 }
 
 /** Custom theme overwrites **/
@@ -58,7 +58,7 @@
 	@variant dt { font-size: calc(((44 * 100) / var(--device-width)) * 1vw); }
 }
 @utility p-big {
-  font-family: var(--next-font-sans);
+  font-family: var(--next-font-display);
 	font-style: normal;
 	font-weight: 400;
 	line-height: 140%;
@@ -67,7 +67,7 @@
 	@variant dt { font-size: calc(((20 * 100) / var(--device-width)) * 1vw); }
 }
 @utility p {
-  font-family: var(--next-font-sans);
+  font-family: var(--next-font-display);
 	font-style: normal;
 	font-weight: 400;
 	line-height: 150%;
@@ -77,7 +77,7 @@
 	@variant dt { font-size: calc(((16 * 100) / var(--device-width)) * 1vw); }
 }
 @utility caption {
-  font-family: var(--next-font-sans);
+  font-family: var(--next-font-display);
 	font-style: normal;
 	font-weight: 500;
 	line-height: 130%;
@@ -87,7 +87,7 @@
 	@variant dt { font-size: calc(((11 * 100) / var(--device-width)) * 1vw); }
 }
 @utility cta {
-  font-family: var(--next-font-sans);
+  font-family: var(--next-font-display);
 	font-style: normal;
 	font-weight: 500;
 	line-height: 100%;
@@ -96,7 +96,7 @@
 	@variant dt { font-size: calc(((13 * 100) / var(--device-width)) * 1vw); }
 }
 @utility link {
-  font-family: var(--next-font-sans);
+  font-family: var(--next-font-display);
 	font-style: normal;
 	font-weight: 400;
 	line-height: 130%;
