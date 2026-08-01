@@ -1,6 +1,6 @@
 interface StorybookEnv {
-  NODE_ENV?: string
-  NEXT_PUBLIC_STORYBOOK_URL?: string
+  NODE_ENV?: string | undefined
+  NEXT_PUBLIC_STORYBOOK_URL?: string | undefined
 }
 
 /**
@@ -19,7 +19,10 @@ export function getStorybookConfig(env: StorybookEnv) {
   }
 }
 
-const config = getStorybookConfig(process.env)
+const config = getStorybookConfig({
+  NODE_ENV: process.env.NODE_ENV,
+  NEXT_PUBLIC_STORYBOOK_URL: process.env.NEXT_PUBLIC_STORYBOOK_URL,
+})
 
 export const STORYBOOK_HREF = config.href
 export const STORYBOOK_ENABLED = config.enabled
