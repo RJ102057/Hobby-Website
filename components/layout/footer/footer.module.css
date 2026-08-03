@@ -4,7 +4,7 @@
   padding-bottom: calc(var(--safe) * 2);
   font-family: var(--next-font-display);
   font-weight: 500;
-  font-size: calc((10 * 100) / var(--device-width) * 1vw);
+  font-size: calc((14 * 100) / var(--device-width) * 1vw);
   text-transform: uppercase;
   letter-spacing: 0.05em;
   border-top: 1px solid var(--line);
@@ -15,7 +15,7 @@
   gap: calc((16 * 100) / var(--device-width) * 1vw);
 
   @media (--desktop) {
-    font-size: calc((11 * 100) / var(--device-width) * 1vw);
+    font-size: calc((16 * 100) / var(--device-width) * 1vw);
     flex-direction: row;
     align-items: flex-end;
     justify-content: space-between;
@@ -26,14 +26,14 @@
   font-family: var(--next-font-display);
   font-style: italic;
   font-weight: 500;
-  font-size: calc((16 * 100) / var(--device-width) * 1vw);
+  font-size: calc((20 * 100) / var(--device-width) * 1vw);
   text-transform: none;
   letter-spacing: normal;
   color: var(--color-secondary);
   transition: opacity var(--duration-fast) var(--ease-out-expo);
 
   @media (--desktop) {
-    font-size: calc((18 * 100) / var(--device-width) * 1vw);
+    font-size: calc((22 * 100) / var(--device-width) * 1vw);
   }
 
   @media (--hover) {
