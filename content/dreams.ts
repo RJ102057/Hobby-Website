@@ -15,7 +15,7 @@ export const dreams: DreamItem[] = [
   },
   {
     label: 'Dream Car',
-    name: 'Mercedes-Maybach S680 Manufaktur — Maroon',
+    name: 'Mercedes-Maybach S680',
     // Source: https://www.evoindia.com/top-news/2021-mercedes-maybach-s-class-unveiled
     image: '/images/dream/maybach-s680-maroon.jpg',
   },
