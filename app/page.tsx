@@ -26,12 +26,24 @@ export default function HomePage() {
         <div className="col-span-full dt:col-start-2 dt:col-end-11">
           <h2 className={s.sectionTitle}>Atelier Notes</h2>
           <p className={s.notesText}>
-            Atelier R.J. is a running record of the things I&apos;ve actually
-            collected — watches worn on real wrists, scents worth finishing, and
-            one car I still think about on long drives. Dare to Dream is the
-            wishlist: pieces I haven&apos;t earned yet, but might one day.
-            Nothing here is curated for anyone else. Come back when the
-            collection changes.
+            This is a space that seeks to display my love for fine artistry be
+            it in terms of luxury watches, fragrances or cars.
+          </p>
+          <p className={s.notesText}>
+            Some of what&apos;s here — I&apos;ve worn and used, not just
+            admired.
+          </p>
+          <p className={s.notesText}>
+            The rest is a dream collection: watches and scents I haven&apos;t
+            earned yet as well as cars that I hope to have.
+          </p>
+          <p className={s.notesText}>
+            These are kept here as a reminder of what I want to work towards.
+          </p>
+          <p className={s.notesText}>
+            I built from a personal desire to share my tastes, connect with
+            those who have similar passions and to encourage others to do the
+            same.
           </p>
         </div>
       </section>
