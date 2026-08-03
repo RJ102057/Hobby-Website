@@ -16,6 +16,7 @@
   line-height: 1.05;
   color: var(--color-secondary);
   margin-bottom: calc(32 / 375 * 100vw);
+  text-align: center;
 
   @media (--desktop) {
     font-size: calc(40 / 1440 * 100vw);

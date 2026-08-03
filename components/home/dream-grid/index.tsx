@@ -10,7 +10,7 @@ interface DreamGridProps {
 export function DreamGrid({ items }: DreamGridProps) {
   return (
     <section className={cn(s.section, 'dr-layout-grid')}>
-      <div className="col-span-full dt:col-start-2 dt:col-end-11">
+      <div className="col-span-full dt:col-start-1 dt:col-end-13">
         <h2 className={s.sectionTitle}>Dare to Dream</h2>
         <ul className={s.grid}>
           {items.map((item) => (
