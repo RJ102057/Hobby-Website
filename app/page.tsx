@@ -1,43 +1,13 @@
 import cn from 'clsx'
 import { DreamGrid } from '@/components/home/dream-grid'
-import { ExploreGrid, type ExploreTile } from '@/components/home/explore-grid'
 import { Wrapper } from '@/components/layout/wrapper'
-import { cars } from '@/content/cars'
 import { dreams } from '@/content/dreams'
-import { perfumes } from '@/content/perfumes'
-import { watches } from '@/content/watches'
-import { STORYBOOK_ENABLED, STORYBOOK_HREF } from '@/lib/storybook'
 import s from './page.module.css'
 
 export const metadata = {
   title: "Reuben's Collection",
   description: 'A personal showcase of watches, perfumes, and cars.',
 }
-
-function firstItem<T>(items: T[]): T {
-  const [item] = items
-  if (!item) {
-    throw new Error('Expected at least one item')
-  }
-  return item
-}
-
-const EXPLORE_TILES: ExploreTile[] = [
-  { title: 'Home', href: '/', description: 'Back to the overview.' },
-  { title: 'Watches', href: '/watches', image: firstItem(watches).image },
-  { title: 'Perfumes', href: '/perfumes', image: firstItem(perfumes).image },
-  { title: 'Cars', href: '/cars', image: firstItem(cars).image },
-  ...(STORYBOOK_ENABLED
-    ? [
-        {
-          title: 'Atelier Notes',
-          href: STORYBOOK_HREF,
-          description: 'Behind the collection.',
-          newTab: true,
-        } satisfies ExploreTile,
-      ]
-    : []),
-]
 
 export default function HomePage() {
   return (
@@ -51,7 +21,20 @@ export default function HomePage() {
       </section>
 
       <DreamGrid items={dreams} />
-      <ExploreGrid tiles={EXPLORE_TILES} />
+
+      <section className={cn(s.notes, 'dr-layout-grid')}>
+        <div className="col-span-full dt:col-start-2 dt:col-end-11">
+          <h2 className={s.sectionTitle}>Atelier Notes</h2>
+          <p className={s.notesText}>
+            Atelier R.J. is a running record of the things I&apos;ve actually
+            collected — watches worn on real wrists, scents worth finishing, and
+            one car I still think about on long drives. Dare to Dream is the
+            wishlist: pieces I haven&apos;t earned yet, but might one day.
+            Nothing here is curated for anyone else. Come back when the
+            collection changes.
+          </p>
+        </div>
+      </section>
     </Wrapper>
   )
 }
