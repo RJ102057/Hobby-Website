@@ -12,14 +12,14 @@
 .kicker {
   font-family: var(--font-sans);
   font-weight: 500;
-  font-size: calc(13 / 375 * 100vw);
+  font-size: calc(16 / 375 * 100vw);
   text-transform: uppercase;
   letter-spacing: 0.14em;
   color: var(--color-secondary);
   margin-bottom: calc(18 / 375 * 100vw);
 
   @media (--desktop) {
-    font-size: calc(14 / 1440 * 100vw);
+    font-size: calc(18 / 1440 * 100vw);
     margin-bottom: calc(22 / 1440 * 100vw);
   }
 }
@@ -39,7 +39,7 @@
 
 .lede {
   font-family: var(--font-sans);
-  font-size: calc(17 / 375 * 100vw);
+  font-size: calc(20 / 375 * 100vw);
   line-height: 1.65;
   text-wrap: pretty;
   opacity: 0.6;
@@ -47,7 +47,7 @@
   max-width: 58ch;
 
   @media (--desktop) {
-    font-size: calc(19 / 1440 * 100vw);
+    font-size: calc(23 / 1440 * 100vw);
     margin-top: calc(32 / 1440 * 100vw);
   }
 }

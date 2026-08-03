@@ -21,8 +21,7 @@ type CustomLinkProps = Omit<
      * Force new-tab behavior (target="_blank" + rel="noopener noreferrer")
      * even for a relative/internal href. `isExternalHref` already covers
      * absolute http(s) URLs automatically — this is only for the rare case
-     * of an internal route that should still open in a new tab (e.g. a
-     * proxied Storybook route).
+     * of an internal route that should still open in a new tab.
      */
     newTab?: boolean | undefined
   }
@@ -30,8 +29,8 @@ type CustomLinkProps = Omit<
 /**
  * Single source of truth for "is this href external". Absolute http(s) URLs
  * are external; everything else (relative paths, hashes, mailto:, etc.) is
- * treated as internal. Exported so callers that build their own nav data
- * (e.g. Header) can derive the same external-arrow/new-tab intent instead of
+ * treated as internal. Exported so any caller that builds its own nav data
+ * can derive the same external-arrow/new-tab intent instead of
  * hand-authoring a parallel `external` flag that can drift from this logic.
  */
 export function isExternalHref(href: string) {
