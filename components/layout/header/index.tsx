@@ -3,27 +3,16 @@
 import cn from 'clsx'
 import { usePathname } from 'next/navigation'
 import { useState } from 'react'
-import { isExternalHref, Link } from '@/components/ui/link'
-import { STORYBOOK_ENABLED, STORYBOOK_HREF } from '@/lib/storybook'
+import { Link } from '@/components/ui/link'
 import s from './header.module.css'
 
-// `newTab` is only needed when a link should open in a new tab despite not
-// being externally-derivable from its href (e.g. the proxied, relative
-// Storybook route in production). Absolute http(s) hrefs — like the GitHub
-// link — get new-tab + the arrow indicator automatically via isExternalHref.
-type NavLink = { href: string; label: string; newTab?: boolean }
+type NavLink = { href: string; label: string }
 
 // Navigation links - customize for your project
 const LINKS: NavLink[] = [
-  { href: '/', label: 'home' },
   { href: '/watches', label: 'watches' },
   { href: '/perfumes', label: 'perfumes' },
   { href: '/cars', label: 'cars' },
-  // Prod Storybook route is relative (/storybook/, proxied) so it isn't
-  // externally-derivable from the href alone — needs the explicit intent.
-  ...(STORYBOOK_ENABLED
-    ? [{ href: STORYBOOK_HREF, label: 'atelier notes', newTab: true }]
-    : []),
 ]
 
 export function Header() {
@@ -32,9 +21,11 @@ export function Header() {
 
   return (
     <header className={s.header}>
-      {/* Brand: logo + live pathname */}
+      {/* Brand: logo (links home) + live pathname */}
       <div className={s.brand}>
-        <span className={s.wordmark}>Atelier R.J.</span>
+        <Link className={s.wordmark} href="/">
+          Atelier R.J.
+        </Link>
         <span className={s.brandPath}>{pathname}</span>
       </div>
 
@@ -53,7 +44,6 @@ export function Header() {
       {/* Level 1: Main navigation */}
       <ul className={cn(s.navList, menuOpen && s.navListOpen)} id="header-nav">
         {LINKS.map((link) => {
-          const opensNewTab = isExternalHref(link.href) || Boolean(link.newTab)
           const isActive = pathname === link.href
 
           return (
@@ -67,10 +57,8 @@ export function Header() {
                   isActive ? s.navLinkActive : s.navLinkDim
                 )}
                 href={link.href}
-                newTab={link.newTab}
               >
                 {link.label}
-                {opensNewTab && '↗'}
               </Link>
             </li>
           )
