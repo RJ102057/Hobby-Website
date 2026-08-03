@@ -5,24 +5,24 @@
   z-index: 20;
   font-family: var(--next-font-display);
   font-weight: 500;
-  font-size: calc((10 * 100) / var(--device-width) * 1vw);
+  font-size: calc((14 * 100) / var(--device-width) * 1vw);
   text-transform: uppercase;
   letter-spacing: 0.05em;
 
   @media (--desktop) {
-    font-size: calc((11 * 100) / var(--device-width) * 1vw);
+    font-size: calc((16 * 100) / var(--device-width) * 1vw);
   }
 }
 
 .brand {
-  font-size: calc((14 * 100) / var(--device-width) * 1vw);
+  font-size: calc((19 * 100) / var(--device-width) * 1vw);
   margin-bottom: calc((8 * 100) / var(--device-width) * 1vw);
   display: flex;
   align-items: baseline;
   gap: 0.3em;
 
   @media (--desktop) {
-    font-size: calc((15 * 100) / var(--device-width) * 1vw);
+    font-size: calc((21 * 100) / var(--device-width) * 1vw);
   }
 }
 
