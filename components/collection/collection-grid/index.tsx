@@ -1,5 +1,6 @@
 import cn from 'clsx'
 import { Image } from '@/components/ui/image'
+import { Lightbox } from '@/components/ui/lightbox'
 import type { CollectionItem } from '@/content/types'
 import s from './collection-grid.module.css'
 
@@ -33,14 +34,16 @@ export function CollectionGrid({
           <ul className={s.items}>
             {items.map((item) => (
               <li className={s.card} key={item.name}>
-                <Image
-                  alt={item.name}
-                  aspectRatio={imageAspectRatio}
-                  className={s.image}
-                  desktopSize="50vw"
-                  mobileSize="100vw"
-                  src={item.image}
-                />
+                <Lightbox alt={item.name} src={item.image}>
+                  <Image
+                    alt={item.name}
+                    aspectRatio={imageAspectRatio}
+                    className={s.image}
+                    desktopSize="50vw"
+                    mobileSize="100vw"
+                    src={item.image}
+                  />
+                </Lightbox>
                 <div className={s.info}>
                   <p className={s.brand}>
                     {item.brand} · {item.year}
