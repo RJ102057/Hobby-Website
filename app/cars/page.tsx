@@ -14,7 +14,7 @@ export default function CarsPage() {
         imageAspectRatio={4 / 3}
         items={cars}
         kicker="Collection"
-        lede="Driven, not garaged."
+        lede="Ambitions, parked for now."
         title="Cars"
       />
     </Wrapper>

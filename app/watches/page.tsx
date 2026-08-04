@@ -14,7 +14,7 @@ export default function WatchesPage() {
         imageAspectRatio={1}
         items={watches}
         kicker="Collection"
-        lede="Pieces I've actually worn, not just photographed."
+        lede="Currently on the wrist"
         title="Watches"
       />
     </Wrapper>

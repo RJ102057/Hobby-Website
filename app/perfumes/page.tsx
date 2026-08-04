@@ -14,7 +14,7 @@ export default function PerfumesPage() {
         imageAspectRatio={1}
         items={perfumes}
         kicker="Collection"
-        lede="Scents I keep coming back to."
+        lede="What I wear, presently"
         title="Perfumes"
       />
     </Wrapper>

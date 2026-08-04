@@ -2,27 +2,107 @@ import type { CollectionItem } from './types'
 
 export const cars: CollectionItem[] = [
   {
-    name: '911 Carrera S',
-    brand: 'Porsche',
-    year: 2019,
-    image: '/images/cars/911-carrera-s.svg',
+    name: 'Ghost',
+    brand: 'Rolls-Royce',
+    year: 2024,
+    // Source: https://www.press.rolls-roycemotorcars.com/rolls-royce-motor-cars-pressclub/photo/detail/P90519872/ROLLS-ROYCE-GHOST
+    image: '/images/cars/rolls-royce-ghost.jpg',
     specs: {
-      Engine: '3.0L twin-turbo flat-six',
-      Power: '443 hp',
-      Transmission: '8-speed PDK',
+      Engine: '6.75L twin-turbo V12',
+      Power: '563 hp',
+      Transmission: '8-speed automatic',
     },
-    note: 'Daily-driven, not garage-kept. The point of it stops mattering the moment it stops moving.',
+    note: 'Quiet, effortless, built for the back seat.',
   },
   {
-    name: 'A5 Coupe',
-    brand: 'Audi',
-    year: 2016,
-    image: '/images/cars/a5-coupe.svg',
+    name: 'Phantom',
+    brand: 'Rolls-Royce',
+    year: 2023,
+    // Source: https://www.press.rolls-roycemotorcars.com/rolls-royce-motor-cars-pressclub/photo/detail/P90514076/rolls-royce-phantom
+    image: '/images/cars/rolls-royce-phantom.jpg',
     specs: {
-      Engine: '2.0L turbo inline-4',
-      Power: '252 hp',
-      Transmission: '7-speed S tronic',
+      Engine: '6.75L twin-turbo V12',
+      Power: '571 hp',
+      Transmission: '8-speed automatic',
     },
-    note: 'The first car I actually chose for myself. Still the one I trust in bad weather.',
+    note: 'The standard for presence without shouting.',
+  },
+  {
+    name: 'Flying Spur',
+    brand: 'Bentley',
+    year: 2026,
+    // Source: https://www.bentleymedia.com/en/newsitem/1800-handcrafted-luxury-with-supercar-performance-the-new-flying-spur
+    image: '/images/cars/bentley-flying-spur.jpg',
+    specs: {
+      Engine: '4.0L twin-turbo V8 hybrid',
+      Power: '671 hp',
+      Transmission: '8-speed dual-clutch',
+    },
+    note: 'Understated power in a four-door body.',
+  },
+  {
+    name: 'Defender 110',
+    brand: 'Land Rover',
+    year: 2020,
+    // Source: https://www.landroverusa.com/defender/defender/index.html
+    image: '/images/cars/land-rover-defender.jpg',
+    specs: {
+      Engine: '3.0L turbo inline-6 mild-hybrid',
+      Power: '395 hp',
+      Transmission: '8-speed automatic',
+    },
+    note: 'Built for anywhere, styled for everywhere.',
+  },
+  {
+    name: 'GT',
+    brand: 'McLaren',
+    year: 2019,
+    // Source: https://commons.wikimedia.org/wiki/Category:McLaren_GTS
+    image: '/images/cars/mclaren-gt.jpg',
+    specs: {
+      Engine: '4.0L twin-turbo V8',
+      Power: '626 hp',
+      Transmission: '7-speed dual-clutch',
+    },
+    note: 'A grand tourer built for long, fast drives.',
+  },
+  {
+    name: 'Zonda C12',
+    brand: 'Pagani',
+    year: 1999,
+    // Source: https://commons.wikimedia.org/wiki/File:Pagani_Zonda_C12.jpg
+    image: '/images/cars/pagani-zonda.jpg',
+    specs: {
+      Engine: '6.0L V12',
+      Power: '402 hp',
+      Transmission: '5-speed manual',
+    },
+    note: 'Analog, raw, endlessly imitated.',
+  },
+  {
+    name: '911 Carrera',
+    brand: 'Porsche',
+    year: 2024,
+    // Source: https://newsroom.porsche.com/en_US/model-range/911/911-carrera.html
+    image: '/images/cars/porsche-911-carrera.jpg',
+    specs: {
+      Engine: '3.0L twin-turbo flat-six',
+      Power: '388 hp',
+      Transmission: '8-speed PDK',
+    },
+    note: 'The reference point for everyday sports cars.',
+  },
+  {
+    name: 'LM',
+    brand: 'Lexus',
+    year: 2023,
+    // Source: https://global.toyota/en/newsroom/lexus/39084541.html
+    image: '/images/cars/lexus-lm.jpg',
+    specs: {
+      Engine: '2.4L turbo inline-4 hybrid',
+      Power: '366 hp',
+      Transmission: '6-speed automatic',
+    },
+    note: 'Chauffeur-driven luxury, reimagined.',
   },
 ]

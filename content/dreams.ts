@@ -3,7 +3,7 @@ import type { DreamItem } from './types'
 export const dreams: DreamItem[] = [
   {
     label: 'Dream Watch',
-    name: 'Jaeger-Le Coultre Reverso Artistica Hybrid Calibre 179 Pegasus',
+    name: 'Jaeger LeCoultre Reverso Artistica Hybrid Calibre 179 Pegasus',
     // Source: https://www.jaeger-lecoultre.com/in-en/watches/hybris-artistica/reverso-calibre-179-pegasus-q39424e5
     image: '/images/dream/jlc-reverso-artistica-pegasus.jpg',
   },
