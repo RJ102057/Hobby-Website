@@ -45,10 +45,10 @@ export const watches: CollectionItem[] = [
     name: 'Classic Dress Watch',
     brand: 'Seiko',
     year: 2015,
-    // Source: https://www.reddeerwatches.com/seiko-quartz-pair-model-leather-strap-mens-watch-sur035p1-sur035.html
+    // Source: https://www.karorak-pro.hu/seiko-ferfi-karorak/26707-seiko-classic-modern-sur035p1-ferfi-karora.html
     image: '/images/watches/seiko-classic-dress.jpg',
     specs: {
-      Movement: 'Quartz',
+      Movement: 'Quartz, Caliber 6N43',
       Case: '41mm stainless steel',
       'Water resistance': '100m',
     },
