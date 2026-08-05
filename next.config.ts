@@ -104,7 +104,6 @@ const nextConfig: NextConfig = {
     taint: true,
     cachedNavigations: false,
     prefetchInlining: true,
-    sri: { algorithm: 'sha384' },
     optimizePackageImports: ['gsap', '@base-ui/react', 'lenis', 'zustand'],
   },
   devIndicators: false,
