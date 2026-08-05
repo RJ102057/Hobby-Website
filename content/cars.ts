@@ -57,7 +57,7 @@ export const cars: CollectionItem[] = [
     name: 'GT',
     brand: 'McLaren',
     year: 2019,
-    // Source: https://commons.wikimedia.org/wiki/Category:McLaren_GTS
+    // Source: https://robbreport.com/motors/cars/mclaren-unveils-new-gt-model-2857721/
     image: '/images/cars/mclaren-gt.jpg',
     specs: {
       Engine: '4.0L twin-turbo V8',
@@ -70,7 +70,7 @@ export const cars: CollectionItem[] = [
     name: 'Zonda C12',
     brand: 'Pagani',
     year: 1999,
-    // Source: https://commons.wikimedia.org/wiki/File:Pagani_Zonda_C12.jpg
+    // Source: https://www.thesupercarblog.com/this-one-off-pagani-zonda-roadster-from-china-is-inspired-by-a-mountain-range/
     image: '/images/cars/pagani-zonda.jpg',
     specs: {
       Engine: '6.0L V12',
