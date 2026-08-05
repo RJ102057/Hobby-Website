@@ -157,4 +157,17 @@ export const perfumes: CollectionItem[] = [
     },
     note: 'Clean and aquatic, easy to reach for.',
   },
+  {
+    name: 'Beast',
+    brand: 'Bella Vita',
+    year: 2025,
+    // Source: https://www.bellavitaluxury.co.in/products/beast-perfume-100ml
+    image: '/images/perfumes/bellavita-beast.jpg',
+    specs: {
+      Concentration: 'Eau de Parfum',
+      'Top notes': 'Raspberry, birch, benzoin, geranium',
+      Size: '100ml',
+    },
+    note: 'Fruity intensity over a leather and oud base.',
+  },
 ]
