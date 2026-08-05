@@ -83,10 +83,10 @@ export const perfumes: CollectionItem[] = [
     name: 'Sea Breeze',
     brand: 'Ebadi',
     year: 2020,
-    // Source: https://ibadiperfumes.com/products/sea-breeze
+    // Photo: owner's own bottle
     image: '/images/perfumes/ebadi-sea-breeze.jpg',
     specs: {
-      Concentration: 'Eau de Parfum',
+      Concentration: 'Extrait de Parfum',
       'Top notes': 'Mandarin, pineapple, bay leaf',
       Size: '50ml',
     },
