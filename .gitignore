@@ -71,3 +71,5 @@ plans
 
 # prepare-handoff backup — created by `bun run handoff` when swapping README
 README.original.md
+
+.vercel
