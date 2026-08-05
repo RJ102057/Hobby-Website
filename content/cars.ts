@@ -67,17 +67,17 @@ export const cars: CollectionItem[] = [
     note: 'A grand tourer built for long, fast drives.',
   },
   {
-    name: 'Zonda C12',
+    name: 'Zonda 760 Roadster',
     brand: 'Pagani',
-    year: 1999,
+    year: 2025,
     // Source: https://www.thesupercarblog.com/this-one-off-pagani-zonda-roadster-from-china-is-inspired-by-a-mountain-range/
     image: '/images/cars/pagani-zonda.jpg',
     specs: {
-      Engine: '6.0L V12',
-      Power: '402 hp',
-      Transmission: '5-speed manual',
+      Engine: '7.3L naturally aspirated V12',
+      Power: '760 hp',
+      Transmission: '7-speed sequential',
     },
-    note: 'Analog, raw, endlessly imitated.',
+    note: 'One-of-one, inspired by the Kunlun Mountains.',
   },
   {
     name: '911 Carrera',
