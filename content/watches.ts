@@ -18,7 +18,8 @@ export const watches: CollectionItem[] = [
     name: 'Celestia Classic Analog',
     brand: 'Tornado',
     year: 2018,
-    // Source: https://tornado.store/products/t8007-slbwg
+    // Source: https://tornado.store/products/t8007-slbwg, recolored from the
+    // two-tone gold case shown there to the owner's plain steel case
     image: '/images/watches/tornado-celestia-classic.jpg',
     specs: {
       Movement: 'Quartz, Miyota 2115',
