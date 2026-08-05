@@ -44,16 +44,15 @@ export const watches: CollectionItem[] = [
   {
     name: 'Classic Dress Watch',
     brand: 'Seiko',
-    year: 2025,
-    // Source: https://www.seikowatches.com/us-en/products/presage/spb495j1,
-    // recolored from the enamel white dial shown there to light grey
+    year: 2015,
+    // Source: https://www.reddeerwatches.com/seiko-quartz-pair-model-leather-strap-mens-watch-sur035p1-sur035.html
     image: '/images/watches/seiko-classic-dress.jpg',
     specs: {
-      Movement: 'Automatic, Caliber 6R5H',
-      Case: '40.2mm stainless steel',
+      Movement: 'Quartz',
+      Case: '41mm stainless steel',
       'Water resistance': '100m',
     },
-    note: 'Light grey dial, roman numerals, quiet elegance.',
+    note: 'Silver dial, single roman numeral, quiet elegance.',
   },
   {
     name: 'World Time (AE-1200WHD-1A)',
