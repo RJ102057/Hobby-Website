@@ -4,8 +4,8 @@ export const cars: CollectionItem[] = [
   {
     name: 'Ghost',
     brand: 'Rolls-Royce',
-    year: 2025,
-    // Source: https://www.press.rolls-roycemotorcars.com/rolls-royce-motor-cars-pressclub/article/detail/T0445483EN/ghost-series-ii:-the-most-advanced-driver-focused-v12-rolls-royce-ever-created
+    year: 2024,
+    // Source: https://www.autocar.co.uk/car-review/rolls-royce/ghost-black-badge (interior, Starlight Headliner)
     image: '/images/cars/rolls-royce-ghost.jpg',
     specs: {
       Engine: '6.75L twin-turbo V12',
