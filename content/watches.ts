@@ -42,17 +42,18 @@ export const watches: CollectionItem[] = [
     note: 'A quiet moonphase complication most people miss.',
   },
   {
-    name: 'Easy Read Quartz',
+    name: 'Classic Dress Watch',
     brand: 'Seiko',
-    year: 2015,
-    // Source: https://www.mygiftstop.com/products/seiko-sur113-mens-easy-read-white-dial-black-leather-strap-watch
-    image: '/images/watches/seiko-easy-read-white.jpg',
+    year: 2025,
+    // Source: https://www.seikowatches.com/us-en/products/presage/spb495j1,
+    // recolored from the enamel white dial shown there to light grey
+    image: '/images/watches/seiko-classic-dress.jpg',
     specs: {
-      Movement: 'Quartz, Caliber 6N42',
-      Case: '42mm stainless steel',
+      Movement: 'Automatic, Caliber 6R5H',
+      Case: '40.2mm stainless steel',
       'Water resistance': '100m',
     },
-    note: 'Clean white dial, no fuss.',
+    note: 'Light grey dial, roman numerals, quiet elegance.',
   },
   {
     name: 'World Time (AE-1200WHD-1A)',
