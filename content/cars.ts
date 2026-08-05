@@ -5,20 +5,20 @@ export const cars: CollectionItem[] = [
     name: 'Ghost',
     brand: 'Rolls-Royce',
     year: 2024,
-    // Source: https://www.press.rolls-roycemotorcars.com/rolls-royce-motor-cars-pressclub/photo/detail/P90519872/ROLLS-ROYCE-GHOST
+    // Source: https://www.autocar.co.uk/car-review/rolls-royce/ghost-black-badge (interior, Starlight Headliner)
     image: '/images/cars/rolls-royce-ghost.jpg',
     specs: {
       Engine: '6.75L twin-turbo V12',
       Power: '563 hp',
       Transmission: '8-speed automatic',
     },
-    note: 'Quiet, effortless, built for the back seat.',
+    note: 'The Starlight Headliner, every time you get in.',
   },
   {
     name: 'Phantom',
     brand: 'Rolls-Royce',
     year: 2023,
-    // Source: https://www.press.rolls-roycemotorcars.com/rolls-royce-motor-cars-pressclub/photo/detail/P90514076/rolls-royce-phantom
+    // Source: https://www.press.rolls-roycemotorcars.com/rolls-royce-motor-cars-pressclub/article/detail/T0326573EN/ (Phantom Tempus Collection, "Kairos Blue")
     image: '/images/cars/rolls-royce-phantom.jpg',
     specs: {
       Engine: '6.75L twin-turbo V12',
@@ -44,7 +44,7 @@ export const cars: CollectionItem[] = [
     name: 'Defender 110',
     brand: 'Land Rover',
     year: 2020,
-    // Source: https://www.landroverusa.com/defender/defender/index.html
+    // Source: https://media.landrover.com/image-packs/defender-110-v8-images (black exterior)
     image: '/images/cars/land-rover-defender.jpg',
     specs: {
       Engine: '3.0L turbo inline-6 mild-hybrid',
@@ -83,7 +83,7 @@ export const cars: CollectionItem[] = [
     name: '911 Carrera',
     brand: 'Porsche',
     year: 2024,
-    // Source: https://newsroom.porsche.com/en_US/model-range/911/911-carrera.html
+    // Source: https://newsroom.porsche.com/en_US/model-range/911/911-carrera-4-GTS.html (Guards Red)
     image: '/images/cars/porsche-911-carrera.jpg',
     specs: {
       Engine: '3.0L twin-turbo flat-six',

@@ -15,17 +15,17 @@ export const watches: CollectionItem[] = [
     note: 'A reliable automatic that needs no battery.',
   },
   {
-    name: 'Celestia Classic Analog',
+    name: 'Spectra Analog',
     brand: 'Tornado',
     year: 2022,
-    // Source: https://sa.tornado.store/products/t8007-xbxn
-    image: '/images/watches/tornado-celestia-classic.jpg',
+    // Source: https://tornado.store/products/t22002-slbb
+    image: '/images/watches/tornado-spectra-black.jpg',
     specs: {
-      Movement: 'Quartz, Miyota 2115',
-      Case: '42mm stainless steel',
+      Movement: 'Quartz, Miyota GM10',
+      Case: '40mm stainless steel',
       'Water resistance': '100m',
     },
-    note: 'Clean dial, easy everyday wear.',
+    note: 'Black dial, black leather, no distractions.',
   },
   {
     name: 'Oliver Blue Dial Moonphase (1791302)',
@@ -41,17 +41,17 @@ export const watches: CollectionItem[] = [
     note: 'A quiet moonphase complication most people miss.',
   },
   {
-    name: 'Dress Quartz (SUR059)',
+    name: 'Easy Read Quartz',
     brand: 'Seiko',
-    year: 2017,
-    // Source: https://www.ashford.com/products/seiko-sur059
-    image: '/images/watches/seiko-quartz-dress.jpg',
+    year: 2015,
+    // Source: https://www.mygiftstop.com/products/seiko-sur113-mens-easy-read-white-dial-black-leather-strap-watch
+    image: '/images/watches/seiko-easy-read-white.jpg',
     specs: {
-      Movement: 'Quartz',
+      Movement: 'Quartz, Caliber 6N42',
       Case: '42mm stainless steel',
       'Water resistance': '100m',
     },
-    note: 'Simple, dependable, no fuss.',
+    note: 'Clean white dial, no fuss.',
   },
   {
     name: 'World Time (AE-1200WHD-1A)',
