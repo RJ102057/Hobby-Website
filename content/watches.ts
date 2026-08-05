@@ -15,17 +15,17 @@ export const watches: CollectionItem[] = [
     note: 'A reliable automatic that needs no battery.',
   },
   {
-    name: 'Spectra Analog',
+    name: 'Celestia Classic Analog',
     brand: 'Tornado',
-    year: 2022,
-    // Source: https://tornado.store/products/t22002-slbb
-    image: '/images/watches/tornado-spectra-black.jpg',
+    year: 2018,
+    // Source: https://tornado.store/products/t8007-slbwg
+    image: '/images/watches/tornado-celestia-classic.jpg',
     specs: {
-      Movement: 'Quartz, Miyota GM10',
-      Case: '40mm stainless steel',
+      Movement: 'Quartz, Miyota 2115',
+      Case: '42mm stainless steel',
       'Water resistance': '100m',
     },
-    note: 'Black dial, black leather, no distractions.',
+    note: 'White dial, black leather, understated formality.',
   },
   {
     name: 'Oliver Blue Dial Moonphase (1791302)',
