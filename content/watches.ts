@@ -9,7 +9,7 @@ export const watches: CollectionItem[] = [
     image: '/images/watches/seiko-5-snk621k1.jpg',
     specs: {
       Movement: 'Automatic, Caliber 7S26 (21 jewels)',
-      Case: '38mm stainless steel',
+      Case: '36mm stainless steel',
       'Water resistance': '30m',
     },
     note: 'A reliable automatic that needs no battery.',
@@ -23,7 +23,7 @@ export const watches: CollectionItem[] = [
     image: '/images/watches/tornado-celestia-classic.jpg',
     specs: {
       Movement: 'Quartz, Miyota 2115',
-      Case: '42mm stainless steel',
+      Case: '40mm stainless steel',
       'Water resistance': '100m',
     },
     note: 'White dial, black leather, understated formality.',
@@ -36,20 +36,20 @@ export const watches: CollectionItem[] = [
     image: '/images/watches/tommy-hilfiger-oliver.jpg',
     specs: {
       Movement: 'Quartz, moonphase complication',
-      Case: '43mm stainless steel mesh',
+      Case: '42mm stainless steel mesh',
       'Water resistance': '30m',
     },
     note: 'A quiet moonphase complication most people miss.',
   },
   {
-    name: 'Classic Dress Watch',
+    name: 'Seiko SUR035P1',
     brand: 'Seiko',
     year: 2015,
     // Source: https://www.karorak-pro.hu/seiko-ferfi-karorak/26707-seiko-classic-modern-sur035p1-ferfi-karora.html
     image: '/images/watches/seiko-classic-dress.jpg',
     specs: {
       Movement: 'Quartz, Caliber 6N43',
-      Case: '41mm stainless steel',
+      Case: '40mm stainless steel',
       'Water resistance': '100m',
     },
     note: 'Silver dial, single roman numeral, quiet elegance.',
