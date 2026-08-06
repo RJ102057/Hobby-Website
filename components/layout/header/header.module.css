@@ -14,6 +14,18 @@
   }
 }
 
+.backdrop {
+  display: none;
+
+  @media (--mobile) {
+    display: block;
+    position: fixed;
+    inset: 0;
+    background-color: var(--color-primary);
+    z-index: -1;
+  }
+}
+
 .brand {
   font-size: calc((19 * 100) / var(--device-width) * 1vw);
   margin-bottom: calc((8 * 100) / var(--device-width) * 1vw);

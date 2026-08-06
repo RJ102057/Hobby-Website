@@ -21,6 +21,10 @@ export function Header() {
 
   return (
     <header className={s.header}>
+      {/* Solid backdrop behind the open mobile nav so it doesn't overlap
+          page content underneath — mobile only, see .backdrop */}
+      {menuOpen && <div className={s.backdrop} />}
+
       {/* Brand: logo (links home) + live pathname */}
       <div className={s.brand}>
         <Link className={s.wordmark} href="/">
