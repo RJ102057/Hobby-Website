@@ -157,4 +157,17 @@ export const perfumes: CollectionItem[] = [
     },
     note: 'Clean and aquatic, easy to reach for.',
   },
+  {
+    name: 'Blue Jeans',
+    brand: 'Versace',
+    year: 1994,
+    // Source: https://emiratesfragrance.com/products/versace-blue-jeans-eau-de-toilette-75ml-for-men
+    image: '/images/perfumes/versace-blue-jeans.jpg',
+    specs: {
+      Concentration: 'Eau de Toilette',
+      'Top notes': 'Bergamot, lemon, basil',
+      Size: '75ml',
+    },
+    note: 'A 90s classic in the iconic denim-blue bottle.',
+  },
 ]

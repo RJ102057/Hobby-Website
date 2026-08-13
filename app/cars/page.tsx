@@ -3,8 +3,8 @@ import { Wrapper } from '@/components/layout/wrapper'
 import { cars } from '@/content/cars'
 
 export const metadata = {
-  title: 'Cars',
-  description: "Cars from Reuben's personal collection.",
+  title: 'Dream Cars',
+  description: "Dream cars from Reuben's personal collection.",
 }
 
 export default function CarsPage() {
@@ -15,7 +15,7 @@ export default function CarsPage() {
         items={cars}
         kicker="Collection"
         lede="Ambitions, parked for now."
-        title="Cars"
+        title="Dream Cars"
       />
     </Wrapper>
   )
