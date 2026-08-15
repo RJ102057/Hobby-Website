@@ -18,11 +18,11 @@ export const perfumes: CollectionItem[] = [
     name: 'Legend',
     brand: 'Montblanc',
     year: 2011,
-    // Source: https://www.montblanc.com/en-us/montblanc-legend-100-ml-MB127070.html
-    image: '/images/perfumes/montblanc-legend.jpg',
+    // Source: https://www.sweetcare.com/us/montblanc-legend-homme-eau-toilette-man-p-014517mb
+    image: '/images/perfumes/montblanc-legend-edt.jpg',
     specs: {
-      Concentration: 'Eau de Parfum',
-      'Top notes': 'Violet leaves, bergamot',
+      Concentration: 'Eau de Toilette',
+      'Top notes': 'Lavender, pineapple, bergamot',
       Size: '100ml',
     },
     note: 'A modern take on a familiar classic.',
@@ -93,24 +93,24 @@ export const perfumes: CollectionItem[] = [
     note: 'Light and breezy, built for warm days.',
   },
   {
-    name: 'Cool Water Intense',
+    name: 'Cool Water',
     brand: 'Davidoff',
-    year: 2019,
-    // Source: https://www.sweetcare.com/us/davidoff-cool-water-intense-eau-parfum-man-p-012095df
-    image: '/images/perfumes/davidoff-cool-water-intense.jpg',
+    year: 1988,
+    // Source: https://www.sweetcare.com/us/davidoff-cool-water-men-eau-toilette-p-009397df
+    image: '/images/perfumes/davidoff-cool-water.jpg',
     specs: {
-      Concentration: 'Eau de Parfum',
-      'Top notes': 'Green mandarin, coconut nectar, amber',
+      Concentration: 'Eau de Toilette',
+      'Top notes': 'Lavender, mint, coriander',
       Size: '50ml',
     },
-    note: 'A stronger take on a familiar aquatic.',
+    note: 'The original aquatic, light and easygoing.',
   },
   {
     name: 'Sheikh Zayed Oud',
     brand: 'Al Fakhr',
     year: 2019,
-    // Source: https://www.amazon.in/AL-FAKHR-SHAIKH-ZAYAD-PERFUME-100ml/dp/B0CH5BB29Q
-    image: '/images/perfumes/al-fakhr-sheikh-zayed-oud.jpg',
+    // Photo: owner's own bottle
+    image: '/images/perfumes/al-fakhr-sheikh-zayed-oud-owner.jpg',
     specs: {
       Concentration: 'Eau de Parfum',
       'Top notes': 'Oud, rose, saffron',
