@@ -2,17 +2,17 @@ import type { CollectionItem } from './types'
 
 export const cars: CollectionItem[] = [
   {
-    name: 'Ghost',
+    name: 'Ghost Black Badge',
     brand: 'Rolls-Royce',
     year: 2024,
-    // Source: https://www.autocar.co.uk/car-review/rolls-royce/ghost-black-badge (interior, Starlight Headliner)
-    image: '/images/cars/rolls-royce-ghost.jpg',
+    // Source: https://www.press.rolls-roycemotorcars.com/rolls-royce-motor-cars-pressclub/photo/detail/P90338722/ROLLS-ROYCE-GHOST-BLACK-BADGE
+    image: '/images/cars/rolls-royce-ghost-black-badge.jpg',
     specs: {
       Engine: '6.75L twin-turbo V12',
-      Power: '563 hp',
+      Power: '592 hp',
       Transmission: '8-speed automatic',
     },
-    note: 'The Starlight Headliner, every time you get in.',
+    note: "Rolls-Royce's darker, more assertive alter ego.",
   },
   {
     name: 'Phantom',
@@ -104,5 +104,47 @@ export const cars: CollectionItem[] = [
       Transmission: '6-speed automatic',
     },
     note: 'Chauffeur-driven luxury, reimagined.',
+  },
+  {
+    name: 'Revuelto SV',
+    brand: 'Lamborghini',
+    year: 2026,
+    // Source: https://www.evo.co.uk/lamborghini/revuelto/209017/lamborghini-revuelto-sv-pictures (black with red livery accents)
+    image: '/images/cars/lamborghini-revuelto-sv.jpg',
+    specs: {
+      Engine: '6.5L NA V12 hybrid + 3 e-motors',
+      Power: '1,050 hp combined',
+      Transmission: '8-speed dual-clutch',
+      Color: 'Black with red livery accents',
+    },
+    note: 'The most powerful, quickest-accelerating Lamborghini ever built.',
+  },
+  {
+    name: 'Roma',
+    brand: 'Ferrari',
+    year: 2020,
+    // Source: https://commons.wikimedia.org/wiki/File:2021_Ferrari_Roma_in_Rosso_Fiorano,_front_right.jpg (CC BY-SA 3.0, photo by Mr.choppers)
+    image: '/images/cars/ferrari-roma.jpg',
+    specs: {
+      Engine: '3.9L twin-turbo V8',
+      Power: '612 hp',
+      Transmission: '8-speed dual-clutch',
+      Color: 'Red',
+    },
+    note: 'La Nuova Dolce Vita, in the tradition of front-engined Ferraris.',
+  },
+  {
+    name: 'Chiron Super Sport',
+    brand: 'Bugatti',
+    year: 2021,
+    // Source: https://carbuzz.com/news/bugatti-chiron-super-sport-red-dragon-looks-exquisite-with-red-tinted-carbon-fiber-finish/ ('Red Dragon' one-off, red-tinted exposed carbon)
+    image: '/images/cars/bugatti-chiron-super-sport.jpg',
+    specs: {
+      Engine: '8.0L quad-turbo W16',
+      Power: '1,578 hp',
+      Transmission: '7-speed dual-clutch',
+      Color: 'Red',
+    },
+    note: 'Tuned for top-end stability at speeds most cars never see.',
   },
 ]
