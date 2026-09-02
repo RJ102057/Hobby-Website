@@ -170,4 +170,56 @@ export const perfumes: CollectionItem[] = [
     },
     note: 'A 90s classic in the iconic denim-blue bottle.',
   },
+  {
+    name: 'Liquid Brun',
+    brand: 'French Avenue',
+    year: 2024,
+    // Source: https://frenchavenue.com/products/liquid-brun
+    image: '/images/perfumes/french-avenue-liquid-brun.jpg',
+    specs: {
+      Concentration: 'Eau de Parfum',
+      'Top notes': 'Bergamot, cardamom, cinnamon, orange blossom',
+      Size: '100ml',
+    },
+    note: 'Warm and sweet, built around vanilla and praline.',
+  },
+  {
+    name: 'Vulcan Feu',
+    brand: 'French Avenue',
+    year: 2025,
+    // Source: https://frenchavenue.com/products/vulcan-feu
+    image: '/images/perfumes/french-avenue-vulcan-feu.jpg',
+    specs: {
+      Concentration: 'Eau de Parfum',
+      'Top notes': 'Mango, lemon, ginger, rhubarb',
+      Size: '100ml',
+    },
+    note: 'Fruity and floral, with a tonka bean finish.',
+  },
+  {
+    name: 'Club de Nuit Untold',
+    brand: 'Armaf',
+    year: 2022,
+    // Source: https://armafperfume.com/products/armaf-club-de-nuit-untold-edp-105ml
+    image: '/images/perfumes/armaf-club-de-nuit-untold.jpg',
+    specs: {
+      Concentration: 'Eau de Parfum',
+      'Top notes': 'Saffron, jasmine',
+      Size: '105ml',
+    },
+    note: 'Amber and woody, with serious presence.',
+  },
+  {
+    name: 'Yeah! Man',
+    brand: 'Maison Alhambra',
+    year: 2023,
+    // Source: https://beautyhouse.com/products/maison-alhambra-yeah-eau-de-parfum-for-men
+    image: '/images/perfumes/maison-alhambra-yeah-man.jpg',
+    specs: {
+      Concentration: 'Eau de Parfum',
+      'Top notes': 'Apple, bergamot, ginger',
+      Size: '100ml',
+    },
+    note: 'Bright and fruity, an easy everyday scent.',
+  },
 ]
