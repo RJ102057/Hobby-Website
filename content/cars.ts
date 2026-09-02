@@ -31,7 +31,7 @@ export const cars: CollectionItem[] = [
     name: 'Flying Spur',
     brand: 'Bentley',
     year: 2026,
-    // Source: https://www.bentleymedia.com/en/newsitem/1800-handcrafted-luxury-with-supercar-performance-the-new-flying-spur
+    // Photo: provided by owner
     image: '/images/cars/bentley-flying-spur.jpg',
     specs: {
       Engine: '4.0L twin-turbo V8 hybrid',
@@ -67,17 +67,17 @@ export const cars: CollectionItem[] = [
     note: 'A grand tourer built for long, fast drives.',
   },
   {
-    name: 'Zonda 760 Roadster',
+    name: 'Utopia Roadster',
     brand: 'Pagani',
-    year: 2025,
-    // Source: https://www.thesupercarblog.com/this-one-off-pagani-zonda-roadster-from-china-is-inspired-by-a-mountain-range/
-    image: '/images/cars/pagani-zonda.jpg',
+    year: 2024,
+    // Photo: provided by owner
+    image: '/images/cars/pagani-utopia-roadster.jpg',
     specs: {
-      Engine: '7.3L naturally aspirated V12',
-      Power: '760 hp',
-      Transmission: '7-speed sequential',
+      Engine: '6.0L twin-turbo V12 (AMG-developed)',
+      Power: '864 hp',
+      Transmission: '7-speed Xtrac automated manual',
     },
-    note: 'One-of-one, inspired by the Kunlun Mountains.',
+    note: "The open-top farewell to Pagani's V12 era.",
   },
   {
     name: '911 Carrera',
@@ -109,13 +109,13 @@ export const cars: CollectionItem[] = [
     name: 'Revuelto SV',
     brand: 'Lamborghini',
     year: 2026,
-    // Source: https://www.evo.co.uk/lamborghini/revuelto/209017/lamborghini-revuelto-sv-pictures (black with red livery accents)
+    // Source: https://www.lamborghini.com/en-en/news/Lamborghini-Revuelto-SV-The-Quantum-of-Driving
     image: '/images/cars/lamborghini-revuelto-sv.jpg',
     specs: {
       Engine: '6.5L NA V12 hybrid + 3 e-motors',
       Power: '1,050 hp combined',
       Transmission: '8-speed dual-clutch',
-      Color: 'Black with red livery accents',
+      Color: 'Red and black',
     },
     note: 'The most powerful, quickest-accelerating Lamborghini ever built.',
   },
@@ -123,7 +123,7 @@ export const cars: CollectionItem[] = [
     name: 'Roma',
     brand: 'Ferrari',
     year: 2020,
-    // Source: https://commons.wikimedia.org/wiki/File:2021_Ferrari_Roma_in_Rosso_Fiorano,_front_right.jpg (CC BY-SA 3.0, photo by Mr.choppers)
+    // Photo: provided by owner
     image: '/images/cars/ferrari-roma.jpg',
     specs: {
       Engine: '3.9L twin-turbo V8',
@@ -146,5 +146,19 @@ export const cars: CollectionItem[] = [
       Color: 'Red',
     },
     note: 'Tuned for top-end stability at speeds most cars never see.',
+  },
+  {
+    name: 'Gemera',
+    brand: 'Koenigsegg',
+    year: 2024,
+    // Photo: provided by owner
+    image: '/images/cars/koenigsegg-gemera.jpg',
+    specs: {
+      Engine: '5.0L twin-turbo V8 hybrid',
+      Power: '2,300 hp',
+      Transmission: '9-speed Light Speed Tourbillon',
+      Color: 'Green',
+    },
+    note: 'A four-seat megacar that still hits hypercar numbers.',
   },
 ]
