@@ -222,4 +222,30 @@ export const perfumes: CollectionItem[] = [
     },
     note: 'Bright and fruity, an easy everyday scent.',
   },
+  {
+    name: 'Imperial Blue',
+    brand: 'Riiffs',
+    year: 2021,
+    // Source: https://www.riiffsperfumes.com/product/imperial-blue-2/
+    image: '/images/perfumes/riiffs-imperial-blue.jpg',
+    specs: {
+      Concentration: 'Eau de Parfum',
+      'Top notes': 'Mint, apple, orange blossom',
+      Size: '100ml',
+    },
+    note: 'Cool mint and citrus over a warm, woody base.',
+  },
+  {
+    name: 'Flavia Légende',
+    brand: 'Armaf',
+    year: 2022,
+    // Source: https://www.fragrantica.com/perfume/Flavia/Legende-136955.html
+    image: '/images/perfumes/armaf-flavia-legende.jpg',
+    specs: {
+      Concentration: 'Eau de Parfum',
+      'Top notes': 'Green tea, bergamot, rosemary',
+      Size: '100ml',
+    },
+    note: 'Green tea and vanilla, soft and easy to wear.',
+  },
 ]
