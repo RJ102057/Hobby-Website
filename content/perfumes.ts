@@ -248,4 +248,43 @@ export const perfumes: CollectionItem[] = [
     },
     note: 'Green tea and vanilla, soft and easy to wear.',
   },
+  {
+    name: 'Jean Lowe Immortel',
+    brand: 'Maison Alhambra',
+    year: 2023,
+    // Source: https://beautyhouse.com/products/maison-alhambra-jean-lowe-immortal-eau-de-parfum-for-men
+    image: '/images/perfumes/maison-alhambra-jean-lowe-immortel.jpg',
+    specs: {
+      Concentration: 'Eau de Parfum',
+      'Top notes': 'Ginger, grapefruit, bergamot',
+      Size: '100ml',
+    },
+    note: 'Warm amber and ambroxan under a bright ginger-citrus opening.',
+  },
+  {
+    name: 'Demeter',
+    brand: 'Velixir',
+    year: 2024,
+    // Source: https://velixirparfums.com/products/demeter-for-unisex-edp-100ml
+    image: '/images/perfumes/velixir-demeter.jpg',
+    specs: {
+      Concentration: 'Eau de Parfum',
+      'Top notes': 'Mint, lemon, basil, thyme',
+      Size: '100ml',
+    },
+    note: 'Green and herbal, built for active outdoor days.',
+  },
+  {
+    name: 'Asteria',
+    brand: 'Velixir',
+    year: 2026,
+    // Source: https://velixirparfums.com/products/velixir-asteria-for-unisex-eau-de-parfum
+    image: '/images/perfumes/velixir-asteria.jpg',
+    specs: {
+      Concentration: 'Eau de Parfum',
+      'Top notes': 'Blood orange, mandarin, bergamot',
+      Size: '100ml',
+    },
+    note: 'Juicy citrus over creamy tiare flower and soft musk.',
+  },
 ]

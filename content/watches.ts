@@ -67,4 +67,17 @@ export const watches: CollectionItem[] = [
     },
     note: 'Tracks 48 cities at a glance.',
   },
+  {
+    name: 'Standard Roman Dial (LTP-V007L-9B)',
+    brand: 'Casio',
+    year: 2020,
+    // Source: https://psbwatches.com/en/products/montre-casio-tank-femme-roman-dial-ltp-v007l-9b
+    image: '/images/watches/casio-ltp-v007l-9b.jpg',
+    specs: {
+      Movement: 'Quartz, 3-hand analog',
+      Case: '31 x 22mm chrome-plated stainless steel',
+      'Water resistance': '30m',
+    },
+    note: 'Roman numeral dial on a compact rectangular case.',
+  },
 ]
