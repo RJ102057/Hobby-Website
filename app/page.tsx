@@ -34,8 +34,8 @@ export default function HomePage() {
             admired.
           </p>
           <p className={s.notesText}>
-            The rest is a dream collection: watches and scents I haven&apos;t
-            earned yet as well as cars that I hope to have.
+            The watches and perfumes are mine. The cars are my dream collection,
+            the ones I hope to have one day.
           </p>
           <p className={s.notesText}>
             These are kept here as a reminder of what I want to work towards.
