@@ -80,4 +80,18 @@ export const watches: CollectionItem[] = [
     },
     note: 'Roman numeral dial on a compact rectangular case.',
   },
+  {
+    name: 'QZ Blue Dial (0920-8010)',
+    brand: 'Seiko',
+    year: 1975,
+    // Source: https://www.watchuseek.com/threads/seiko-qz-0920-8010-september-1975-original-bracelet-jdm-eu-seller.5454566/
+    image: '/images/watches/seiko-qz-0920-8010.jpg',
+    specs: {
+      Movement: 'Quartz, Caliber 0920 (no date)',
+      Case: '36mm stainless steel',
+      Dial: 'Sunray blue with applied logo',
+      Crystal: 'Mineral',
+    },
+    note: 'JDM-only from September 1975, near the dawn of quartz.',
+  },
 ]
