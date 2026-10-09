@@ -19,14 +19,15 @@ export const watches: CollectionItem[] = [
     brand: 'Tornado',
     year: 2018,
     // Source: https://tornado.store/products/t8007-slbwg, recolored from the
-    // two-tone gold case shown there to the owner's plain steel case
+    // two-tone gold case shown there to the owner's plain steel case, with the
+    // black dial composited from https://tornado.store/products/t8007-sbsn
     image: '/images/watches/tornado-celestia-classic.jpg',
     specs: {
       Movement: 'Quartz, Miyota 2115',
       Case: '40mm stainless steel',
       'Water resistance': '100m',
     },
-    note: 'White dial, black leather, understated formality.',
+    note: 'Black dial, black leather, understated formality.',
   },
   {
     name: 'Oliver Blue Dial Moonphase (1791302)',
@@ -93,5 +94,32 @@ export const watches: CollectionItem[] = [
       Crystal: 'Mineral',
     },
     note: 'JDM-only from September 1975, near the dawn of quartz.',
+  },
+  {
+    name: 'Enticer Day-Date (MTP-1381D-1AV)',
+    brand: 'Casio',
+    year: 2014,
+    // Source: https://watchclick.com/products/casio-collection-mtp-1381d-1av
+    image: '/images/watches/casio-mtp-1381d-1av.jpg',
+    specs: {
+      Movement: 'Quartz, day-date',
+      Case: '46.6 x 39.9mm stainless steel bracelet',
+      Dial: 'Black',
+      'Water resistance': '50m',
+    },
+    note: 'Black dial with a wide day window, classic everyday steel.',
+  },
+  {
+    name: 'Exceed Eco-Drive Mother of Pearl (G530-T005255)',
+    brand: 'Citizen',
+    year: 2016,
+    // Photo: owner's own watch
+    image: '/images/watches/citizen-exceed-g530-mother-of-pearl.jpg',
+    specs: {
+      Movement: 'Eco-Drive solar, Caliber G530 (±10 sec/year)',
+      Case: 'Stainless steel bracelet',
+      Dial: 'Mother-of-pearl with textured center',
+    },
+    note: 'Light-powered and accurate to seconds a year, with a shimmering pearl dial.',
   },
 ]

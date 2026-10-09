@@ -223,19 +223,6 @@ export const perfumes: CollectionItem[] = [
     note: 'Bright and fruity, an easy everyday scent.',
   },
   {
-    name: 'Imperial Blue',
-    brand: 'Riiffs',
-    year: 2021,
-    // Source: https://www.riiffsperfumes.com/product/imperial-blue-2/
-    image: '/images/perfumes/riiffs-imperial-blue.jpg',
-    specs: {
-      Concentration: 'Eau de Parfum',
-      'Top notes': 'Mint, apple, orange blossom',
-      Size: '100ml',
-    },
-    note: 'Cool mint and citrus over a warm, woody base.',
-  },
-  {
     name: 'Flavia Légende',
     brand: 'Armaf',
     year: 2022,
@@ -275,16 +262,42 @@ export const perfumes: CollectionItem[] = [
     note: 'Green and herbal, built for active outdoor days.',
   },
   {
-    name: 'Asteria',
-    brand: 'Velixir',
-    year: 2026,
-    // Source: https://velixirparfums.com/products/velixir-asteria-for-unisex-eau-de-parfum
-    image: '/images/perfumes/velixir-asteria.jpg',
+    name: '1 Million',
+    brand: 'Paco Rabanne',
+    year: 2008,
+    // Source: https://www.rabanne.com/us/en_US/fragrance/p/1-million--000000000065051844
+    image: '/images/perfumes/paco-rabanne-1-million-edt.jpg',
     specs: {
-      Concentration: 'Eau de Parfum',
-      'Top notes': 'Blood orange, mandarin, bergamot',
+      Concentration: 'Eau de Toilette',
+      'Top notes': 'Blood mandarin, peppermint, grapefruit',
       Size: '100ml',
     },
-    note: 'Juicy citrus over creamy tiare flower and soft musk.',
+    note: 'Spicy leather and cinnamon in the famous gold-bar bottle.',
+  },
+  {
+    name: 'Vulcan Baie',
+    brand: 'French Avenue',
+    year: 2025,
+    // Source: https://royalsperfume.com/products/vulcan-baie-by-french-avenue-edp-100ml
+    image: '/images/perfumes/french-avenue-vulcan-baie.jpg',
+    specs: {
+      Concentration: 'Eau de Parfum',
+      'Top notes': 'Blackcurrant, blackberry, bergamot, rosemary',
+      Size: '100ml',
+    },
+    note: 'Juicy berries over sandalwood and musk, the fruity sibling to Vulcan Feu.',
+  },
+  {
+    name: 'Cyrus Writer',
+    brand: 'Paris Bleu',
+    year: 2020,
+    // Source: https://www.parfumoriginale.com/products/paris-bleu-cyrus-writer-eau-de-parfum-pour-homme-100-ml
+    image: '/images/perfumes/paris-bleu-cyrus-writer.jpg',
+    specs: {
+      Concentration: 'Eau de Parfum',
+      'Top notes': 'Green apple, orange, lemon, lavender',
+      Size: '100ml',
+    },
+    note: 'Fresh woody aromatic with a clean ambergris and vetiver base.',
   },
 ]
